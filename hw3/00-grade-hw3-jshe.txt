@@ -1,0 +1,17 @@
+jshe hw3 grade: 10/10
+
+Graded files from svn revision 18
+
+--------------------------------------
+Question 1 points and comments: 10/10
+
+funcQ : correct
+funcP : correct
+
+Great job!
+
+Graded by: David Feng (davidfeng)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

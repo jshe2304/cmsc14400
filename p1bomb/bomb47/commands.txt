@@ -1,0 +1,4 @@
+break phase_6
+break explode_bomb
+layout reg
+r

@@ -1,0 +1,24 @@
+jshe p2cache grade: 92.3/100 
+ 
+https://phoenixforge.cs.uchicago.edu/svn/jshe-cs144-win-24/p2cache 
+Grading revision: 33 
+
+$ make
+gcc -g -Wall -Werror -std=c99 -O0 -c trans.c
+gcc -g -Wall -Werror -std=c99 -o test-trans test-trans.c cachelab.c trans.o
+gcc -g -Wall -Werror -std=c99 -O0 -o tracegen tracegen.c trans.o cachelab.c
+
+$ ./driver.py
+Testing transpose function
+Running ./test-trans -M 32 -N 32
+Running ./test-trans -M 32 -N 64
+Running ./test-trans -M 64 -N 64
+
+Cache Lab summary:
+                        Points   Max pts      Misses
+Trans perf 32x32          38.0        38         287
+Trans perf 32x64          38.0        38         699
+Trans perf 64x64          16.3        24        1843
+          Total points    92.3       100
+
+Final Grade: 92.3

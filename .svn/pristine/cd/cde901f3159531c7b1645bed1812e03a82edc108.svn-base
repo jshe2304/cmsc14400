@@ -1,0 +1,9 @@
+long funcQ(long x, long y) {
+    return 5 * y + x;
+}
+
+long funcP(long r, long s, long t) {
+    if (s <= 0) return funcQ(s, r) + t;
+
+    return funcQ(t, s) + r;
+}

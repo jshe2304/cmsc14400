@@ -1,0 +1,42 @@
+# CS 144, Winter 2024 Project 2
+
+## Running the autograders:
+
+Before running the autograders, compile your code:
+
+```bash
+linux> make
+```
+
+Check the correctness and performance of your transpose functions:
+```bash
+linux> ./test-trans -M 32 -N 32
+linux> ./test-trans -M 32 -N 64
+linux> ./test-trans -M 64 -N 64
+```
+
+Check everything at once (this is the program that your instructor runs):
+```bash
+linux> ./driver.py
+```
+
+## Files:
+
+You will modify this one file and only this one file:
+
+| File      | Description             |
+| --------- | ----------------------- |
+| `trans.c` | Your transpose function |
+
+Tools for evaluating your transpose function:
+
+| File           | Description                              |
+| -------------- | ---------------------------------------- |
+| `Makefile`     | Builds the simulator and tools           |
+| `README`       | This file                                |
+| `driver.py*`   | The driver program, runs test-trans      |
+| `cachelab.c`   | Required helper functions                |
+| `cachelab.h`   | Required header file                     |
+| `csim-ref*`    | The executable reference cache simulator |
+| `test-trans.c` | Tests your transpose function            |
+| `tracegen.c`   | Helper program used by test-trans        |

@@ -1,0 +1,44 @@
+1A)
+
+1   P   16  0
+2   P   23  101
+3   C   19  0
+4   P   8   101
+5   C   8   0
+6   C   10  0
+7   P   26  101
+
+1B)
+
+1   P   16  0
+2   P   23  101
+3   C   19  0
+4   C   8   0
+5   C   10  0
+6   P   26  101
+
+Race between which process prints message then signals SIGUSR1 first. 
+In both A and B, the parent prints the message first but the child prints its message before the parent signals SIGUSR1. 
+If parent signals first (line 24) then part B outputted. 
+If child signals first (line 20) then part A outputted. 
+
+1C)
+
+1   P   16  0
+2   P   23  101
+3   C   8   0
+4   C   10  0
+5   P   26  101
+
+Race between which process prints message and signals SIGUSR1 first. 
+In C, the parents prints its message and signals before the child can do anything. 
+
+1D)
+
+1   P   16  0
+2   C   19  0
+3   P   8   101
+4   P   10  101
+
+Race between which process prints message and signals SIGUSR1 first. 
+In D, the child prints its message and signals before the parent can do anything. 

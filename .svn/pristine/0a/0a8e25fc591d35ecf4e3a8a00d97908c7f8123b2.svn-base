@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include "smalloc.h"
+
+
+/*
+ * my_init() is called one time by the application program to to perform any 
+ * necessary initializations, such as allocating the initial heap area.
+ * size_of_region is the number of bytes that you should request from the OS using
+ * mmap().
+ * Note that you need to round up this amount so that you request memory in 
+ * units of the page size, which is defined as 4096 Bytes in this project.
+ */
+int my_init(int size_of_region) {
+  /*
+   * Implement your initialization here.
+   */
+  return 0;
+}
+
+
+/*
+ * smalloc() takes as input the size in bytes of the payload to be allocated and 
+ * returns a pointer to the start of the payload. The function returns NULL if 
+ * there is not enough contiguous free space within the memory allocated 
+ * by my_init() to satisfy this request.
+ */
+void *smalloc(int size_of_payload, Malloc_Status *status) {
+  /*
+   * Implement your malloc here.
+   */
+  return NULL;
+}
+
+
+/*
+ * sfree() frees the target block. "ptr" points to the start of the payload.
+ * NOTE: "ptr" points to the start of the payload, rather than the block (header).
+ */
+void sfree(void *ptr)
+{
+  /*
+   * Implement your free here.
+   */
+  return;
+}

@@ -1,0 +1,26 @@
+1A)
+ttttttttssbb
+
+1B)
+Operation   Address Hit/Miss    Value
+Read        0x831   Hit         0x27
+Read        0x00B   Hit         0x58  
+Read        0x006   Hit         0x56
+Read        0xFFE   Hit         0x08   
+Read        0x54E   Miss        unknown
+Write       0x54C   Miss        n/a
+Write       0x007   Miss        n/a
+Read        0x44C   Miss        unknown
+Read        0xFFD   Hit         0xF1
+
+2A)
+256 accesses. 256/4 - 512/16/4 = 56 misses. 21.875% miss rate. 
+
+2B)
+256 accesses. 256/4 - 1024/16/4 = 48 misses. 18.75% miss rate. 
+
+2C)
+21.875% miss rate
+
+2D)
+Yes. 

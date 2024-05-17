@@ -1,0 +1,14 @@
+1A)
+
+Exception Number    Handler Address
+0                   0xC0015200
+
+1B)
+
+- CPU loads instruction "idivl %ebx" at instruction pointer %eip=0x08031000
+- CPU decodes instruction and identifies it as arithmetic operation to send to ALU
+- ALU runs the instruction but detects divisor, %ebx, is zero
+- A divide-by-zero exception is triggered. 
+- The CPU looks up the handler in the exception table and finds it, setting instruction pointer %eip = 0xC0015200.
+- CPU jumps to next instruction pointed to by %eip = 0xC0015200. 
+- This is the first instruction of the handler, which is then executed. 

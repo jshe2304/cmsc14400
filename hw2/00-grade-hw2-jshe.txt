@@ -1,0 +1,21 @@
+jshe hw2 grade: 12/12
+
+Graded files from svn revision 11
+
+--------------------------------------
+Question 1 points and comments: 12/12
+
+A : correct
+B : correct
+C : correct
+D : correct
+E : correct
+F : correct
+
+Great job!
+
+Graded by: David Feng (davidfeng)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

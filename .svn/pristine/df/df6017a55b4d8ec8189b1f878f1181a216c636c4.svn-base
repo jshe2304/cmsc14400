@@ -1,0 +1,26 @@
+Q1
+
+Part    Value       Mode
+------------------------
+A       0x09        Indirect
+B       unknown     No specified value at address 0x222
+C       0x54        Absolute
+D       0xBC        Indexed
+E       0x42        Scaled Indexed
+F       0xFB        Immediate
+G       0x54        Scaled Indexed    
+
+Q2
+
+Part    Destination Value
+-------------------------
+A       %rsi        0x9
+B       %rbx        0x0
+C       0x210       0xAA
+D       %rdi        0xBE
+E       %rdx        0x0
+F       0x220       0x900
+G       %rax        0x200
+H       0x218       0xBC00
+I       %rax        0x219
+J       0x230       0x2A

@@ -1,0 +1,29 @@
+1A)
+ttttttttssbb
+
+1B)
+Operation   Address Hit/Miss    Value
+Read        0x831   Hit         0x27
+Read        0x00B   Hit         0x58  
+Read        0x006   Hit         0x56
+Read        0xFFE   Hit         0x08   
+Read        0x54E   Miss        unknown
+Write       0x54C   Hit         n/a
+Write       0x007   Hit         n/a
+Read        0x44C   Miss        unknown
+Read        0xFFD   Miss        0xF1
+
+2A)
+100%
+
+2B)
+25%
+
+2C)
+25%
+
+2D)
+No. Each block is still only used once. A larger cache will not solve the spatial locality issues that cause the misses.  
+
+2E)
+Yes. Bigger blocks take better advantage of the spatial locality and so they need to be evicted less often. 

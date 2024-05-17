@@ -1,0 +1,32 @@
+Question 1
+
+A)
+5000 bytes
+Parent process keeps open 100 previous clients' 50 byte file descriptors. 
+
+B)
+0 bytes
+Child file descriptor table is cleaned up when child process exits. No remaining references to file descriptor. 
+
+Question 2
+
+cnt.t0      NYN
+cnt.t1      NNY
+i.m         YYY
+msgs.m      YYY
+myid.t0     NYN
+myid.t1     NNY
+
+Question 3
+
+A)
+Thread 1: (a, b), (a, c), (b, c), (d, a)
+Thread 2: (d, c), (d, b), (c, b)
+
+B)
+Yes, there is overlap between b, c. 
+They are not locked in the same order. 
+
+C)
+Yes. 
+There is overlap in different order. 

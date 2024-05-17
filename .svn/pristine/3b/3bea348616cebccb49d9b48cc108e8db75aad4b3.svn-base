@@ -1,0 +1,37 @@
+jshe cs144 grade: 53.763 (normalized: 89.606)
+
+
+Homeworks:
+              hw1 (5.000%):   33.0/34 == 4.853
+              hw2 (5.000%):   12.0/12 == 5.000
+              hw3 (5.000%):   10.0/10 == 5.000
+              hw4 (5.000%):   43.0/43 == 5.000
+                                ---------------
+                  raw hw sum          == 19.853
+       dropping lowest (hw1)          == 4.853
+replacing with highest (hw1)          == 5.000
+            hw avg (20.000%)          == 20.000
+
+
+Projects:
+          p1bomb (10.000%):   59.0/60 == 9.833
+         p2cache (10.000%):  92.3/100 == 9.230
+
+
+Exams:
+           exam1 (20.000%):  73.5/100 == 14.700
+
+
+(Current weighted score, based on 60.000% of assignments)
+           OVERALL (60.000%)          == 53.763
+
+
+(Current normalized score, 100/60.000 * OVERALL)
+           NORMALIZED (100%)          == 89.606
+
+
+
+The OVERALL score is the total score you've earned. The NORMALIZED
+score is the score as if the quarter ends today (normalized to 100%
+work done). At the end of the quarter, the OVERALL score will be the
+same as the NORMALIZED score.

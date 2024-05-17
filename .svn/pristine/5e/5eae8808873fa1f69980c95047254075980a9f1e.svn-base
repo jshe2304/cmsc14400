@@ -1,0 +1,17 @@
+long loop(long x, long n) {
+    long result = 0;
+    long mask;
+    
+    for (mask = 8; mask != 0; mask = mask << n) {
+        result = (mask & x) | result;
+    }
+    
+    return result;
+}
+
+A. x: %rdi, n: %rsi, result: %rax, mask: %rdx
+B. result: 0, mask: 8
+C. mask != 0
+D. By bitwise shifting it n bits
+E. By bitwise or operation between result and the value mask bitwise and x
+F. See above

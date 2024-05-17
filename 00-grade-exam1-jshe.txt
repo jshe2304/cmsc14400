@@ -1,0 +1,11 @@
+jshe exam1 grade: 73.5/100
+
+  Question 1: 32 / 40
+  Question 2: 18 / 21
+  Question 3: 4 / 12
+  Question 4: 10.5 / 18
+  Question 5: 9 / 9
+
+Questions were graded by TAs and professors. If you believe a question
+was graded incorrectly, please drop by the exam office hour.
+

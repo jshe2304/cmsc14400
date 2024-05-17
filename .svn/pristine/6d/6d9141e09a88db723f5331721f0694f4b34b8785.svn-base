@@ -1,0 +1,11 @@
+1A)
+
+0 0xC0015200
+
+1B)
+
+- CPU loads instruction at 0x08031000
+- ALU checks if %ebx is zero
+- %ebx is zero, so look in the exception table for the divideByZero handler
+- CPU finds divideByZero handler in entry 0 with address 0xC0015200 and puts it in %eip
+- Jump to 0xC0015200, the divideByZero handler

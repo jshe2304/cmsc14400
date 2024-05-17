@@ -1,0 +1,16 @@
+jshe hw5 grade: 15/15
+
+Graded files from svn revision 31
+
+--------------------------------------
+Question 1 points and comments: 15/15
+Everything is correct!
+Minor addition: it would be helpful to
+note what entity is responsible for enabling
+the divide by zero exception (it is the CPU).
+
+Graded by: Kseniia Korotenko (kseniiakorotenko)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.
